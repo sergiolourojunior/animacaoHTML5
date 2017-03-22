@@ -1,0 +1,27 @@
+#screen {
+	border: solid 1px #000;
+	width: 600px;
+	height: 300px;
+	display: inline-block;
+	margin: auto;
+
+	background-repeat: no-repeat;
+	background-position-y: 10px;
+	background-position-x: -100px;
+	background-image: url('nuvem.png');
+}
+.pingo {
+	background-color: #42BBF4;
+	width: 5px;
+	height: 10px;
+	display: inline-block;
+	position: absolute;
+}
+.nuvem {
+	background-color: #CCCCCC;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	display: inline-block;
+	opacity: .8;
+}
